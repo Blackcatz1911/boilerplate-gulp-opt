@@ -201,7 +201,6 @@ gulp.task('clean-dist', function (done) {
 gulp.task('copy-images-dist', ['clean-dist', 'sprites-dist'], function(tmp) {
     return gulp.src(['dev/images/**/*.jpg', 'dev/images/**/*.png'])
         .pipe($.imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
-        .pipe($.debug())
         .pipe(gulp.dest('dist/images'));
 });
 
@@ -297,7 +296,6 @@ gulp.task('sprites-dist', ['build-dev', 'clean-dist'], function() {
     var spriteOutput;
 
     spriteOutput = gulp.src("dev/styles/*.css")
-        .pipe($.debug())
         .pipe($.spriteGenerator({
             baseUrl:         "./dev/",
             spriteSheetName: "sprite.png",
