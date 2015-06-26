@@ -1,0 +1,10 @@
+.img1 {
+	background-image: url("../sprites/img1.png"); /* @meta {"sprite": {"skip": false}} */
+	width:50px;
+	height:50px;
+}
+.img2 {
+	background-image: url("../sprites/img2.png"); /* @meta {"sprite": {"skip": false}} */
+	width:50px;
+	height:50px;
+}
