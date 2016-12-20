@@ -39,6 +39,7 @@ This boilerplate has the ability to increase the product quality of static html 
 ## Installation
 
     npm install bower -g    # If not allready installed
+    npm install gulp-cli -g # If not allready installed
     npm install
     bower install
     
