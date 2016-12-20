@@ -44,7 +44,7 @@ This boilerplate has the ability to increase the product quality of static html 
     
 ## Basic settings
 
-There are some basic settings in the ** gulpfile.js ** file:
+There are some basic settings in the **gulpfile.js** file:
 
 	var autoPrefixBrowserList = ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'];  // browsers to add prefixes for
 	var siteUrl = "http://www.example.com";	 // your site url
