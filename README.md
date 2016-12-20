@@ -80,7 +80,7 @@ You have to follow some simple rules regarding the inclusion of assets - everyth
     <link href="styles/two.css" rel="stylesheet">
     <!-- endbuild -->
     
-``one.css`` and ``one.css`` will be combined into ``styles.css`` at dist-build time but stay seperate for developement
+``one.css`` and ``two.css`` will be combined into ``styles/styles.css`` at dist-build time but stay seperate for developement
 If you want to have multiple combined stylesheets simply use multiple _build:css_ blocks with different target file names.
 Use bower_component stylesheets by prefixing the raw file name with vendor/ . Gulp automaticly copies all stylesheets to the dev/vendor foler.
 
@@ -92,7 +92,7 @@ Use bower_component stylesheets by prefixing the raw file name with vendor/ . Gu
     <script type="text/javascript" src="scripts/two.js"></script>
     <!-- endbuild -->
 
-``one.css``, ``jquery.js`` and ``two.css`` will be combined into ``styles.css`` at dist-build time but stay seperate for developement
+``one.css``, ``jquery.js`` and ``two.css`` will be combined into ``scripts/app.js`` at dist-build time but stay seperate for developement
 If you want to have multiple combined scripts simply use multiple _build:js_ blocks with different target file names.
 Use bower_component scripts by prefixing the raw file name with vendor/ . Gulp automaticly copies all scripts to the dev/vendor foler.
 
